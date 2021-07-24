@@ -34,7 +34,7 @@ create_virtualenv()
     report_status "Updating python virtual environment..."
 
     # Create virtualenv if it doesn't already exist
-    [ ! -d ${PYTHONDIR} ] && virtualenv -p python2 ${PYTHONDIR}
+    [ ! -d ${PYTHONDIR} ] && python3 -m venv ${PYTHONDIR}
 
     # Install/update dependencies
     ${PYTHONDIR}/bin/pip install -r ${SRCDIR}/scripts/klippy-requirements.txt
