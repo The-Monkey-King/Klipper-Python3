@@ -1,6 +1,9 @@
 Succesfully updated from Python 2.7 to Python 3 (3.7.3)
 Awaiting merge...
 
+Also, a thank you to https://www.reddit.com/user/Username_RANDINT/ for their help with my Python migration questions.
+
+
 https://www.klipper3d.org/
 
 Klipper is a 3d-Printer firmware. It combines the power of a general
