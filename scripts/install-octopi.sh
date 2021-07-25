@@ -35,7 +35,10 @@ create_virtualenv()
 
     # Create virtualenv if it doesn't already exist
     [ ! -d ${PYTHONDIR} ] && python3 -m venv ${PYTHONDIR}
-
+	
+	# Make sure pip wheel is installed - python-can and wrapt don't install without it
+    ${PYTHONDIR}/bin/pip install wheel
+	
     # Install/update dependencies
     ${PYTHONDIR}/bin/pip install -r ${SRCDIR}/scripts/klippy-requirements.txt
 }
