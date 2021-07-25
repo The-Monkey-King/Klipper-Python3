@@ -1,4 +1,5 @@
-This is an attempt at updating Klipper from Python2 to Python3
+Succesfully updated from Python 2.7 to Python 3 (3.7.3)
+Awaiting merge...
 
 https://www.klipper3d.org/
 
